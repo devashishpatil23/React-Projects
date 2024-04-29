@@ -1,0 +1,21 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+}
+
+button {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.cstm-center {
+    display: flex;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
