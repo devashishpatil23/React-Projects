@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.scroll-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top-bar {
+    background-color: rgb(228, 255, 198);
+    height: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.scroll-bar {
+    background-color: rgb(235, 101, 226);
+    display: inline-flex;
+    height: 10px;
+    position: absolute;
+}

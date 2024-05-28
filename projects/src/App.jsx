@@ -4,9 +4,11 @@
 // import ImageSlider from "./components/imageSlider/ImageSlider";
 // import LoadMoreProducts from "./components/loadMoreProducts/index";
 // tree menu start
-import TreeView from "./components/treeMenu/TreeView";
-import menus from "./components/treeMenu/data";
+// import TreeView from "./components/treeMenu/TreeView";
+// import menus from "./components/treeMenu/data";
 // tree menu end
+// import LightDarkMode from "./components/LightDarkMode/LightDarkMode";
+import ScrollIndicator from "./components/scroll-indicator/index";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       {/* <ImageSlider url={"https://picsum.photos/v2/list?page=1&limit=5"} /> */}
       {/* <LoadMoreProducts /> */}
       {/* <TreeView menus={menus} /> */}
+      {/* <LightDarkMode /> */}
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </>
   );
 }
