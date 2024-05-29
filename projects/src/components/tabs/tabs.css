@@ -1,0 +1,31 @@
+.tabs-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tabs-wrapper .tabs {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.tabs-wrapper .tabs .label {
+    padding: 1rem;
+    background: #d1d1d1;
+    border: 1px solid rgb(47, 47, 47);
+}
+
+.tabs-wrapper .tabs .label.active {
+    background: #d2f9ce;
+}
+
+.tabs-wrapper .content {
+    margin-top: 1rem;
+}
+
+h3 {
+    margin: 0;
+}

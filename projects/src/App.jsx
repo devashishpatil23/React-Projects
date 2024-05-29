@@ -8,7 +8,8 @@
 // import menus from "./components/treeMenu/data";
 // tree menu end
 // import LightDarkMode from "./components/LightDarkMode/LightDarkMode";
-import ScrollIndicator from "./components/scroll-indicator/index";
+// import ScrollIndicator from "./components/scroll-indicator/index";
+import TabTest from "./components/tabs/parent";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <LoadMoreProducts /> */}
       {/* <TreeView menus={menus} /> */}
       {/* <LightDarkMode /> */}
-      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+      <TabTest />
     </>
   );
 }
