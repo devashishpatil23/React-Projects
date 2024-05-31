@@ -1,0 +1,31 @@
+.github-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.card-wrap {
+    text-align: center;
+    border: 1px solid #000;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.card-wrap img {
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 1rem;
+
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.card-wrap h4 {
+    margin: .5rem 0;
+}

@@ -9,7 +9,9 @@
 // tree menu end
 // import LightDarkMode from "./components/LightDarkMode/LightDarkMode";
 // import ScrollIndicator from "./components/scroll-indicator/index";
-import TabTest from "./components/tabs/parent";
+// import TabTest from "./components/tabs/parent";
+// import ModalTest from "./components/modal/modalTest";
+import GitHubProfileFinder from "./components/gitHubProfile/index";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       {/* <TreeView menus={menus} /> */}
       {/* <LightDarkMode /> */}
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
-      <TabTest />
+      {/* <TabTest /> */}
+      {/* <ModalTest /> */}
+      <GitHubProfileFinder />
     </>
   );
 }
